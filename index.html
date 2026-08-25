@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ihsan: Prayer Times &amp; Quran — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root {
+    --ink: #142420;
+    --ink-dim: #5c6f68;
+    --bg: #f8faf8;
+    --bg-panel: #ffffff;
+    --accent: #1b5e4a;
+    --accent-soft: #dcefe6;
+    --rule: #dbe6e0;
+    --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    --font-body: "Segoe UI", system-ui, -apple-system, sans-serif;
+    --font-mono: "Cascadia Code", Consolas, ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6f0ec;
+      --ink-dim: #a2b8b0;
+      --bg: #0e1815;
+      --bg-panel: #142420;
+      --accent: #5fb894;
+      --accent-soft: #1c332a;
+      --rule: #2a3d36;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #e6f0ec; --ink-dim: #a2b8b0; --bg: #0e1815; --bg-panel: #142420;
+    --accent: #5fb894; --accent-soft: #1c332a; --rule: #2a3d36;
+  }
+  :root[data-theme="light"] {
+    --ink: #142420; --ink-dim: #5c6f68; --bg: #f8faf8; --bg-panel: #ffffff;
+    --accent: #1b5e4a; --accent-soft: #dcefe6; --rule: #dbe6e0;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    line-height: 1.65;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 90px;
+  }
+  .lang-switch {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 12px 0;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--rule);
+    z-index: 5;
+  }
+  .lang-switch button {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    background: var(--bg-panel);
+    color: var(--ink-dim);
+    cursor: pointer;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    text-wrap: balance;
+    margin: 0 0 6px;
+  }
+  .subtitle {
+    color: var(--ink-dim);
+    font-size: 0.92rem;
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    margin: 40px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { max-width: 62ch; color: var(--ink); }
+  .dim { color: var(--ink-dim); }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+  code {
+    font-family: var(--font-mono);
+    background: var(--accent-soft);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+  }
+  a { color: var(--accent); }
+  .callout {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 0.92rem;
+  }
+  .lang-block { display: none; }
+  .lang-block.active { display: block; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-dim);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang-switch">
+    <button data-lang="tr" class="active" onclick="setLang('tr')">TÜRKÇE</button>
+    <button data-lang="en" onclick="setLang('en')">ENGLISH</button>
+  </div>
+
+  <div id="lang-tr" class="lang-block active">
+    <h1>Ihsan: Namaz Vakti ve Kuran — Gizlilik Politikası</h1>
+    <p class="subtitle">Son güncelleme: 26 Ağustos 2026</p>
+
+    <p>Bu gizlilik politikası, "Ihsan: Namaz Vakti ve Kuran" mobil uygulamasını (bundan sonra "Uygulama") kullanırken hangi verilerin nasıl işlendiğini açıklar. Uygulamayı indirip kullanarak bu politikayı kabul etmiş olursunuz.</p>
+
+    <div class="callout">
+      Uygulama bir hesap oluşturmanızı istemez, kimliğinizi doğrulamaz. Aşağıdaki bölümler namaz vakti/kıble için kullanılan konum verisini, cihazınızda tutulan ilerleme/tercih verilerini ve reklam/satın alma özellikleri etkinleştirildiğinde geçerli olacak veri işleme biçimlerini kapsar.</p>
+
+    <h2>1. Cihazınızda Yerel Olarak Saklanan Veriler</h2>
+    <p>Aşağıdaki bilgiler yalnızca cihazınızda saklanır ve bizim sunucularımıza gönderilmez:</p>
+    <ul>
+      <li>Seçtiğiniz konum, dil, tema, Kur'an metin boyutu ve bildirim tercihleri</li>
+      <li>Zikirmatik sayaçları, günlük kayıtlar ve hedefleriniz</li>
+      <li>Alışkanlık takipçisi (oruç günlüğü, bahçe/rozet ilerlemesi) ve quiz istatistikleriniz</li>
+      <li>Kur'an okuma ilerlemeniz (hatim takibi) ve ezber modu durumunuz</li>
+      <li>İndirilen namaz vakti tabloları (offline çalışabilmek için)</li>
+    </ul>
+    <p class="dim">Bu veriler cihazınızın yerel depolamasında (SharedPreferences / yerel dosyalar) tutulur. Uygulamayı silerseniz bu veriler de silinir.</p>
+
+    <h2>2. Konum Verisi (Namaz Vakti ve Kıble)</h2>
+    <p>Uygulama, namaz vakitlerini ve kıble yönünü hesaplayabilmek için cihazınızın konumuna erişim ister (veya listeden manuel olarak bir şehir seçmenize izin verir). Türkiye'deki konumlar için bu bilgi, Diyanet kaynaklı bir vakit tablosu almak üzere üçüncü taraf bir servise (<code>ezanvakti.emushaf.net</code>) şehir/ilçe düzeyinde iletilir; diğer ülkelerde vakitler cihaz üzerinde astronomik hesaplama ile üretilir ve hiçbir sunucuya gönderilmez. Konum bilginiz kimliğinizle ilişkilendirilmez, bizim tarafımızdan saklanmaz veya üçüncü taraflarla paylaşılmaz.</p>
+
+    <h2>3. Bildirimler</h2>
+    <p>Ezan vakti hatırlatmaları, zikir/ezber/oruç hatırlatmaları tamamen cihazınızda, yerel olarak zamanlanır (push bildirim sunucusu kullanılmaz). Bu bildirimleri Ayarlar'dan istediğiniz zaman kapatabilirsiniz.</p>
+
+    <h2>4. Reklamlar (AdMob)</h2>
+    <p>Uygulama, gelir modelinin bir parçası olarak Google AdMob reklam hizmetini kullanır (yalnızca Bilgiler, Quiz, İstatistik/Bahçe gibi ikincil ekranlarda banner reklam; namaz vakti, kıble, Kur'an okuma ve zikirmatik ekranlarında hiçbir zaman reklam gösterilmez). Reklamlar etkinleştirildiğinde, Google ve reklam ortakları aşağıdaki türde veriler toplayabilir:</p>
+    <ul>
+      <li>Reklam kimliği (Advertising ID) ve cihaz tanımlayıcıları</li>
+      <li>Yaklaşık konum (IP adresine dayalı)</li>
+      <li>Uygulama kullanım verileri (reklam gösterim/tıklama istatistikleri)</li>
+    </ul>
+    <p>Bu veriler Google'ın kendi <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Gizlilik Politikası</a>'na tabidir. AB/İngiltere'deki kullanıcılar için Uygulama içi "Gizlilik Tercihleri" ekranından reklam onayınızı yönetebilirsiniz; diğer kullanıcılar cihazınızın reklam kimliğini sıfırlayabilir veya kişiselleştirilmiş reklamları cihaz ayarlarından kapatabilir.</p>
+
+    <h2>5. Satın Almalar (RevenueCat)</h2>
+    <p>Reklamsız Premium abonelik ve tema satın alımları, Apple App Store / Google Play üzerinden gerçekleştirilir ve RevenueCat aracılığıyla doğrulanır. Bu süreçte RevenueCat, satın alma makbuzunuzu ve cihazınıza özgü anonim bir kullanıcı kimliğini işler — adınız, e-postanız veya ödeme bilgileriniz bize ya da RevenueCat'e ulaşmaz (bunlar doğrudan Apple/Google tarafından işlenir). Detaylar için <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Gizlilik Politikası</a>'na bakabilirsiniz.</p>
+
+    <h2>6. Paylaşım</h2>
+    <p>"Paylaş" özelliğini kullandığınızda cihazınızın yerleşik paylaşım menüsü açılır; ne paylaşacağınızı ve kiminle paylaşacağınızı siz seçersiniz. Uygulama bu paylaşımları kaydetmez veya sunucularına göndermez.</p>
+
+    <h2>7. Cihaz Bilgisi</h2>
+    <p>Uygulama, dil tespiti için cihazınızın sistem dilini okuyabilir. Bu bilgi cihazınızda kalır, herhangi bir sunucuya gönderilmez.</p>
+
+    <h2>8. Çocukların Gizliliği</h2>
+    <p>Uygulama genel bir kitleye yöneliktir ve bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamaz. Reklamlar etkinleştirildiğinde, 13 yaş altı kullanıcı kitlesi tespit edilirse Google'ın Aileler için Tasarlanmış Uygulamalar politikasına (kişiselleştirilmemiş reklamlar vb.) uyum sağlanacaktır.</p>
+
+    <h2>9. Haklarınız</h2>
+    <p>Bulunduğunuz bölgeye bağlı olarak (ör. GDPR/KVKK kapsamında), cihazınızda saklanan verileri uygulamayı silerek tamamen kaldırabilirsiniz. Reklam kişiselleştirmesi ve satın alma ile ilgili tercihlerinizi cihaz/işletim sistemi ayarlarından yönetebilirsiniz.</p>
+
+    <h2>10. Değişiklikler</h2>
+    <p>Bu politika, uygulamaya yeni özellikler eklendikçe güncellenebilir. Önemli değişiklikler bu sayfada yayınlanır.</p>
+
+    <h2>11. İletişim</h2>
+    <p>Sorularınız için: <code>emintechlab@gmail.com</code></p>
+  </div>
+
+  <div id="lang-en" class="lang-block">
+    <h1>Ihsan: Prayer Times &amp; Quran — Privacy Policy</h1>
+    <p class="subtitle">Last updated: August 26, 2026</p>
+
+    <p>This privacy policy explains how data is handled when you use the "Ihsan: Prayer Times &amp; Quran" mobile app (the "App"). By downloading and using the App, you agree to this policy.</p>
+
+    <div class="callout">
+      The App does not require an account and does not verify your identity. The sections below cover the location data used for prayer times/qibla, the progress and preference data kept on your device, and the data handling that applies once advertising and purchase features are enabled.
+    </div>
+
+    <h2>1. Data Stored Locally on Your Device</h2>
+    <p>The following information is stored only on your device and is never sent to our servers:</p>
+    <ul>
+      <li>Your chosen location, language, theme, Quran text size, and notification preferences</li>
+      <li>Tasbih (dhikr) counters, daily logs, and goals</li>
+      <li>Habit tracker data (fasting log, garden/achievement progress) and quiz statistics</li>
+      <li>Your Quran reading progress (khatm tracking) and memorization-mode state</li>
+      <li>Downloaded prayer time tables (so the App can work offline)</li>
+    </ul>
+    <p class="dim">This data is kept in your device's local storage (SharedPreferences / local files). Uninstalling the app deletes this data.</p>
+
+    <h2>2. Location Data (Prayer Times and Qibla)</h2>
+    <p>The App requests access to your device's location (or lets you pick a city manually from a list) to calculate prayer times and the qibla direction. For locations in Turkey, this is sent at city/district level to a third-party service (<code>ezanvakti.emushaf.net</code>) to fetch an official Diyanet-sourced prayer time table; for other countries, prayer times are computed on-device using astronomical formulas and never leave your device. Your location is never linked to your identity, stored by us, or shared with any other third party.</p>
+
+    <h2>3. Notifications</h2>
+    <p>Adhan (prayer time) reminders and dhikr/memorization/fasting reminders are scheduled entirely on your device (no push notification server is used). You can turn these off at any time from Settings.</p>
+
+    <h2>4. Advertising (AdMob)</h2>
+    <p>As part of its revenue model, the App uses Google AdMob (banner ads only, and only on secondary screens such as Knowledge, Quiz, and Statistics/Garden — prayer times, qibla, Quran reading, and the tasbih counter never show ads). When ads are enabled, Google and its advertising partners may collect:</p>
+    <ul>
+      <li>Advertising ID and device identifiers</li>
+      <li>Approximate location (based on IP address)</li>
+      <li>App usage data (ad impression/click statistics)</li>
+    </ul>
+    <p>This data is subject to Google's own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>. Users in the EEA/UK can manage ad consent from the in-app "Privacy Options" screen; other users can reset their device's advertising ID or disable personalized ads from device settings.</p>
+
+    <h2>5. Purchases (RevenueCat)</h2>
+    <p>The ad-free Premium subscription and theme purchases are processed through the Apple App Store / Google Play and verified via RevenueCat. In this process, RevenueCat handles your purchase receipt and an anonymous, device-specific user ID — your name, email, or payment details never reach us or RevenueCat (these are handled directly by Apple/Google). See the <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a> for details.</p>
+
+    <h2>6. Sharing</h2>
+    <p>Using the "Share" feature opens your device's built-in share sheet; you choose what to share and with whom. The App does not log these shares or send them to any server.</p>
+
+    <h2>7. Device Information</h2>
+    <p>The App may read your device's system language for localization. This information stays on your device and is not sent to any server.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>The App is intended for a general audience and does not knowingly collect personal data from children under 13. If ads are enabled and a child-directed audience is detected, the App will comply with Google's Families Policy (e.g., non-personalized ads).</p>
+
+    <h2>9. Your Rights</h2>
+    <p>Depending on your jurisdiction (e.g., GDPR), you can remove all locally stored data by uninstalling the app. You can manage ad personalization and purchase-related preferences from your device/OS settings.</p>
+
+    <h2>10. Changes</h2>
+    <p>This policy may be updated as new features are added to the App. Material changes will be posted on this page.</p>
+
+    <h2>11. Contact</h2>
+    <p>Questions: <code>emintechlab@gmail.com</code></p>
+  </div>
+
+  <footer>Ihsan: Prayer Times &amp; Quran — EminTechLab</footer>
+</main>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-block').forEach(el => el.classList.toggle('active', el.id === 'lang-' + lang));
+  document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
+}
+</script>
+</body>
+</html>
