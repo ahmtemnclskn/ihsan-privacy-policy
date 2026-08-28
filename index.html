@@ -152,7 +152,7 @@
     <p class="dim">Bu veriler cihazınızın yerel depolamasında (SharedPreferences / yerel dosyalar) tutulur. Uygulamayı silerseniz bu veriler de silinir.</p>
 
     <h2>2. Konum Verisi (Namaz Vakti ve Kıble)</h2>
-    <p>Uygulama, namaz vakitlerini ve kıble yönünü hesaplayabilmek için cihazınızın konumuna erişim ister (veya listeden manuel olarak bir şehir seçmenize izin verir). Türkiye'deki konumlar için bu bilgi, Diyanet kaynaklı bir vakit tablosu almak üzere üçüncü taraf bir servise (<code>ezanvakti.emushaf.net</code>) şehir/ilçe düzeyinde iletilir; diğer ülkelerde vakitler cihaz üzerinde astronomik hesaplama ile üretilir ve hiçbir sunucuya gönderilmez. Konum bilginiz kimliğinizle ilişkilendirilmez, bizim tarafımızdan saklanmaz veya üçüncü taraflarla paylaşılmaz.</p>
+    <p>Uygulama, namaz vakitlerini ve kıble yönünü hesaplayabilmek için cihazınızın konumuna erişim ister (veya listeden manuel olarak bir şehir seçmenize izin verir). Diyanet'in resmi vakit tablosu yayınladığı ülkelerdeki (Türkiye dahil) konumlar için bu bilgi, ilgili vakit tablosunu almak üzere üçüncü taraf bir servise (<code>ezanvakti.emushaf.net</code>) şehir/ilçe düzeyinde iletilir — ham GPS koordinatınız değil, seçtiğiniz şehir/ilçenin kimliği gönderilir; resmi tablo desteği olmayan ülkelerde vakitler cihaz üzerinde astronomik hesaplama ile üretilir ve hiçbir sunucuya gönderilmez. Konum bilginiz kimliğinizle ilişkilendirilmez, bizim tarafımızdan saklanmaz veya üçüncü taraflarla paylaşılmaz.</p>
 
     <h2>3. Bildirimler</h2>
     <p>Ezan vakti hatırlatmaları, zikir/ezber/oruç hatırlatmaları tamamen cihazınızda, yerel olarak zamanlanır (push bildirim sunucusu kullanılmaz). Bu bildirimleri Ayarlar'dan istediğiniz zaman kapatabilirsiniz.</p>
@@ -210,7 +210,7 @@
     <p class="dim">This data is kept in your device's local storage (SharedPreferences / local files). Uninstalling the app deletes this data.</p>
 
     <h2>2. Location Data (Prayer Times and Qibla)</h2>
-    <p>The App requests access to your device's location (or lets you pick a city manually from a list) to calculate prayer times and the qibla direction. For locations in Turkey, this is sent at city/district level to a third-party service (<code>ezanvakti.emushaf.net</code>) to fetch an official Diyanet-sourced prayer time table; for other countries, prayer times are computed on-device using astronomical formulas and never leave your device. Your location is never linked to your identity, stored by us, or shared with any other third party.</p>
+    <p>The App requests access to your device's location (or lets you pick a city manually from a list) to calculate prayer times and the qibla direction. For locations in countries where an official Diyanet-sourced prayer time table is available (including Turkey), this is sent at city/district level to a third-party service (<code>ezanvakti.emushaf.net</code>) to fetch that table — your raw GPS coordinates are never sent, only the identifier of the city/district you selected; for countries without an official table, prayer times are computed on-device using astronomical formulas and never leave your device. Your location is never linked to your identity, stored by us, or shared with any other third party.</p>
 
     <h2>3. Notifications</h2>
     <p>Adhan (prayer time) reminders and dhikr/memorization/fasting reminders are scheduled entirely on your device (no push notification server is used). You can turn these off at any time from Settings.</p>
