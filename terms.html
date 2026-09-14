@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ihsan: Prayer Times &amp; Quran — Kullanım Şartları / Terms of Service</title>
+<style>
+  :root {
+    --ink: #142420;
+    --ink-dim: #5c6f68;
+    --bg: #f8faf8;
+    --bg-panel: #ffffff;
+    --accent: #1b5e4a;
+    --accent-soft: #dcefe6;
+    --rule: #dbe6e0;
+    --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    --font-body: "Segoe UI", system-ui, -apple-system, sans-serif;
+    --font-mono: "Cascadia Code", Consolas, ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6f0ec;
+      --ink-dim: #a2b8b0;
+      --bg: #0e1815;
+      --bg-panel: #142420;
+      --accent: #5fb894;
+      --accent-soft: #1c332a;
+      --rule: #2a3d36;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #e6f0ec; --ink-dim: #a2b8b0; --bg: #0e1815; --bg-panel: #142420;
+    --accent: #5fb894; --accent-soft: #1c332a; --rule: #2a3d36;
+  }
+  :root[data-theme="light"] {
+    --ink: #142420; --ink-dim: #5c6f68; --bg: #f8faf8; --bg-panel: #ffffff;
+    --accent: #1b5e4a; --accent-soft: #dcefe6; --rule: #dbe6e0;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    line-height: 1.65;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 90px;
+  }
+  .lang-switch {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 12px 0;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--rule);
+    z-index: 5;
+  }
+  .lang-switch button {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    background: var(--bg-panel);
+    color: var(--ink-dim);
+    cursor: pointer;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    text-wrap: balance;
+    margin: 0 0 6px;
+  }
+  .subtitle {
+    color: var(--ink-dim);
+    font-size: 0.92rem;
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    margin: 40px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { max-width: 62ch; color: var(--ink); }
+  .dim { color: var(--ink-dim); }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+  code {
+    font-family: var(--font-mono);
+    background: var(--accent-soft);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+  }
+  a { color: var(--accent); }
+  .callout {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 0.92rem;
+  }
+  .lang-block { display: none; }
+  .lang-block.active { display: block; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-dim);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="lang-switch">
+    <button data-lang="tr" class="active" onclick="setLang('tr')">TÜRKÇE</button>
+    <button data-lang="en" onclick="setLang('en')">ENGLISH</button>
+  </div>
+
+  <div id="lang-tr" class="lang-block active">
+    <h1>Ihsan: Namaz Vakti ve Kuran — Kullanım Şartları</h1>
+    <p class="subtitle">Son güncelleme: 14 Eylül 2026</p>
+
+    <p>Bu Kullanım Şartları ("Şartlar"), "Ihsan: Namaz Vakti ve Kuran" mobil uygulamasını ("Uygulama") kullanımınızı düzenler. Uygulamayı indirip kullanarak bu Şartları kabul etmiş olursunuz. Veri işleme ile ilgili konular için ayrıca <a href="index.html">Gizlilik Politikası</a>'na bakın.</p>
+
+    <h2>1. Hizmetin Kapsamı</h2>
+    <p>Uygulama; namaz vakitleri, kıble yönü, Kur'an metni okuma, zikirmatik, ezber takibi, namaz/oruç alışkanlık takibi ve ilgili bilgi içerikleri sunar. Bazı özellikler (reklamsız kullanım gibi) yalnızca ücretli Premium abonelikle veya tek seferlik tema satın alımıyla açılır; hangi özelliklerin ücretsiz olduğu Uygulama içinde açıkça belirtilir.</p>
+
+    <h2>2. Premium Abonelik ve Otomatik Yenileme</h2>
+    <p>Premium abonelik, satın alma ekranında gösterilen süre (haftalık/aylık/yıllık) için geçerlidir ve <strong>o dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak aynı süre için yenilenir</strong>. Yenileme ücreti, mevcut dönemin bitiminden 24 saat önce hesabınıza yansıtılır. Fiyat, para birimi ve varsa deneme süresinin uzunluğu, satın alma anında Uygulama içinde (App Store/Play Store'un kendi satın alma ekranında) gösterilir — bu sayfa güncel fiyatları listelemez.</p>
+    <ul>
+      <li>Abonelik, hesabınızın onayı ile satın alma anında App Store/Play Store hesabınıza tahsil edilir.</li>
+      <li>Ücretsiz deneme süresi sunulan planlarda, deneme bitmeden iptal edilmezse deneme süresinin bitiminde ücretlendirme otomatik olarak başlar.</li>
+      <li>Abonelik yönetimi ve iptali Uygulama üzerinden değil, doğrudan <strong>App Store</strong> (Ayarlar → Apple ID → Abonelikler) veya <strong>Google Play</strong> (Play Store → Abonelikler) hesap ayarlarınızdan yapılır.</li>
+      <li>Kullanılmayan bir deneme süresi veya dönemin kalan kısmı için iptal anında herhangi bir kısmi iade yapılmaz; iade talepleri ilgili mağazanın (Apple/Google) kendi politikasına tabidir.</li>
+    </ul>
+
+    <h2>3. Tek Seferlik Satın Alımlar</h2>
+    <p>Tema paketleri gibi bazı ürünler tek seferlik satın alınır, otomatik yenilenmez ve tek bir ödeme ile kalıcı olarak açılır.</p>
+
+    <h2>4. İçerik Doğruluğu ve Sorumluluk Reddi</h2>
+    <p>Uygulama, namaz vakitlerini resmi kaynaklardan (ör. Diyanet İşleri Başkanlığı'nın yayınladığı tablolardan) veya astronomik hesaplamayla üretir; Kur'an metni ve dini bilgi içerikleri özenle ve kaynak doğrulaması yapılarak hazırlanmıştır. Buna rağmen Uygulama; resmi bir dini otoritenin, yerel bir imamın veya müftülüğün yerini tutmaz. Namaz vakti, kıble yönü veya dini bir hükümle ilgili kesin ve bağlayıcı bir karar için her zaman yerel bir dini otoriteye danışmanız önerilir. Uygulama "olduğu gibi" sunulur; kesintisiz, hatasız çalışacağına veya belirli bir amaca uygun olacağına dair açık ya da zımni bir garanti verilmez.</p>
+
+    <h2>5. Kullanım Koşulları</h2>
+    <p>Uygulamayı yalnızca yasalara uygun amaçlarla kullanabilirsiniz. Uygulama bir hesap oluşturmanızı gerektirmez. 13 yaşın altındaki kullanıcılar için bkz. Gizlilik Politikası'nın "Çocukların Gizliliği" bölümü.</p>
+
+    <h2>6. Fikri Mülkiyet</h2>
+    <p>Uygulamanın kendi tasarımı, kodu ve özgün içerikleri EminTechLab'e aittir. Kur'an metni gibi dini kaynak içerikler, ilgili kamu malı/açık lisanslı kaynaklardan alınmıştır; bu içerikler üzerinde EminTechLab herhangi bir münhasır mülkiyet hakkı iddia etmez.</p>
+
+    <h2>7. Şartlarda Değişiklik</h2>
+    <p>Bu Şartlar, Uygulamaya yeni özellikler eklendikçe güncellenebilir. Önemli değişiklikler bu sayfada yayınlanır ve Uygulama içinden erişilebilir kalır.</p>
+
+    <h2>8. İletişim</h2>
+    <p>Sorularınız için: <code>emintechlab@gmail.com</code></p>
+  </div>
+
+  <div id="lang-en" class="lang-block">
+    <h1>Ihsan: Prayer Times &amp; Quran — Terms of Service</h1>
+    <p class="subtitle">Last updated: September 14, 2026</p>
+
+    <p>These Terms of Service ("Terms") govern your use of the "Ihsan: Prayer Times &amp; Quran" mobile app (the "App"). By downloading and using the App, you agree to these Terms. For data handling, see the <a href="index.html">Privacy Policy</a>.</p>
+
+    <h2>1. Scope of the Service</h2>
+    <p>The App provides prayer times, qibla direction, Quran reading, a dhikr counter, memorization tracking, prayer/fasting habit tracking, and related informational content. Some features (such as ad-free use) unlock only with a paid Premium subscription or a one-time theme purchase; which features are free is clearly indicated within the App.</p>
+
+    <h2>2. Premium Subscription and Auto-Renewal</h2>
+    <p>A Premium subscription runs for the period shown on the purchase screen (weekly/monthly/annual) and <strong>renews automatically for the same period unless cancelled at least 24 hours before the end of the current period</strong>. Payment for renewal is charged to your account within 24 hours prior to the end of the current period. The price, currency, and length of any free trial are shown in the App at the moment of purchase (in the App Store's or Play Store's own purchase screen) — this page does not list current prices.</p>
+    <ul>
+      <li>Payment is charged to your App Store/Play Store account upon confirmation of purchase.</li>
+      <li>For plans offering a free trial, charging begins automatically at the end of the trial unless cancelled before it ends.</li>
+      <li>Subscriptions are managed and cancelled directly through your <strong>App Store</strong> (Settings → Apple ID → Subscriptions) or <strong>Google Play</strong> (Play Store → Subscriptions) account settings, not within the App.</li>
+      <li>No partial refund is given for the unused portion of a trial or billing period upon cancellation; refund requests are subject to the respective store's (Apple's/Google's) own policy.</li>
+    </ul>
+
+    <h2>3. One-Time Purchases</h2>
+    <p>Some products, such as theme packs, are one-time purchases: they do not auto-renew and unlock permanently with a single payment.</p>
+
+    <h2>4. Content Accuracy and Disclaimer</h2>
+    <p>The App derives prayer times from official sources (such as tables published by Diyanet İşleri Başkanlığı) or astronomical calculation, and its Quran text and religious information content is prepared with care and source verification. Nonetheless, the App is not a substitute for an official religious authority, a local imam, or a muftiate. For a definitive, binding ruling on a prayer time, qibla direction, or any matter of religious law, you should always consult a local religious authority. The App is provided "as is," without warranty, express or implied, that it will be uninterrupted, error-free, or fit for a particular purpose.</p>
+
+    <h2>5. Terms of Use</h2>
+    <p>You may use the App only for lawful purposes. The App does not require you to create an account. For users under 13, see the "Children's Privacy" section of the Privacy Policy.</p>
+
+    <h2>6. Intellectual Property</h2>
+    <p>The App's own design, code, and original content belong to EminTechLab. Religious source content such as the Quran text is drawn from the relevant public-domain or openly licensed sources; EminTechLab claims no exclusive ownership over that content.</p>
+
+    <h2>7. Changes to These Terms</h2>
+    <p>These Terms may be updated as new features are added to the App. Material changes will be posted on this page and remain accessible from within the App.</p>
+
+    <h2>8. Contact</h2>
+    <p>Questions: <code>emintechlab@gmail.com</code></p>
+  </div>
+
+  <footer>Ihsan: Prayer Times &amp; Quran — EminTechLab</footer>
+</main>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-block').forEach(el => el.classList.toggle('active', el.id === 'lang-' + lang));
+  document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
+}
+</script>
+</body>
+</html>
